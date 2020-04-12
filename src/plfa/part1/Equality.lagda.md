@@ -264,9 +264,9 @@ After simplification, the body is equivalent to the term:
 We could replace any use of a chain of equations by a chain of
 applications of `trans`; the result would be more compact but harder
 to read.  The trick behind `∎` means that a chain of equalities
-simplifies to a chain of applications of `trans` that ends in `trans e
-refl`, where `e` is a term that proves some equality, even though `e`
-alone would do.
+simplifies to a chain of applications of `trans` that ends in 
+`trans e refl`, where `e` is a term that proves some equality, even 
+though `e` alone would do.
 
 
 ## Chains of equations, another example
